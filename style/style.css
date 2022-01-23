@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar {
@@ -83,7 +83,7 @@ p {
 }
 
 .header {
-  background: radial-gradient(#fff,#ffd6d6);
+  background: radial-gradient(#fff, #ffd6d6);
 }
 
 .header .row {
@@ -131,7 +131,7 @@ p {
 }
 
 .title::after {
-  content: '';
+  content: "";
   background: #ff523b;
   width: 80px;
   height: 5px;
@@ -159,10 +159,9 @@ h4 {
   transform: translateY(-5px);
 }
 
-
 /* offer */
 .offer {
-  background: radial-gradient(#fff,#ffd6d6);
+  background: radial-gradient(#fff, #ffd6d6);
   margin-top: 80px;
   padding: 30px 0;
 }
@@ -183,7 +182,7 @@ small {
 .testimonial .col-3 {
   text-align: center;
   padding: 40px 20px;
-  box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: transform 0.5s;
 }
@@ -213,4 +212,32 @@ small {
   font-weight: 600;
   color: #555;
   font-size: 16px;
+}
+
+/* brands */
+
+.brands {
+  margin: 100px auto;
+}
+
+.col-5 {
+  width: 160px;
+}
+
+.col-5 img {
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.col-5 img:hover {
+  filter: grayscale(0);
+}
+
+/* footer */
+.footer {
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 60px 0 20px;
 }
